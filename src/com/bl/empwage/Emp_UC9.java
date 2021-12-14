@@ -1,7 +1,6 @@
 package com.bl.empwage;
 
 public class Emp_UC9 {
-
 	String empName;
 	String companyName;
 	int workingHour;
