@@ -1,8 +1,8 @@
 package com.bl.empwage;
 
-public class Compnay  {
+public class Company  {
 
-	public Compnay(String companyName, int workingHour, int wagePerHour, int maxWorkingDay, int maxWorkingHour) {
+	public Company(String companyName, int workingHour, int wagePerHour, int maxWorkingDay, int maxWorkingHour) {
 		
 		this.companyName = companyName;
 		this.workingHour = workingHour;
@@ -34,7 +34,7 @@ public class Compnay  {
 			break;
 
 		case IS_PART_TIME:
-			empHr = (workingHour / 2);
+			empHr = workingHour / 2;
 			break;
 
 		default:
