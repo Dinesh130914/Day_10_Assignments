@@ -10,7 +10,6 @@ public class Emp_UC9 {
 
 	public Emp_UC9(String empName, String companyName, int workingHour, int wagePerHour, int maxWorkingDay,
 			int maxWorkingHour) {
-		super();
 		this.empName = empName;
 		this.companyName = companyName;
 		this.workingHour = workingHour;
