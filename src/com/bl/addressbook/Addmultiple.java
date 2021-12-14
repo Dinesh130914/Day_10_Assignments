@@ -1,5 +1,7 @@
 package com.bl.addressbook;
 
+import java.util.Scanner;
+
 public class Addmultiple {
 	public static void addFirstPerson(String firstName, String lastName, String address, String city, String state, String zipcode, String number, String email) {
 		ArrayList<String> list = new ArrayList<>();
